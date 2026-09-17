@@ -1,0 +1,22 @@
+{
+  "actions": [
+    "ListBill",
+    "ListPackageUsageDetails",
+    "QueryBudgetDetail",
+    "ListBudget",
+    "ListResourcePackages",
+    "ListAmortizedCostBillDetail",
+    "ListCostAnalysisOpenApi",
+    "ListOrders",
+    "GetOrder",
+    "ListAmortizedCostBillDaily",
+    "ListSplitBillDetail",
+    "QueryBalanceAcct",
+    "ListOrderProductDetails",
+    "ListAmortizedCostBillMonthly",
+    "ListBillDetail"
+  ],
+  "description": "BILLING: 修改 ListCostAnalysisOpenApi, ListBudget, ListOrders, ListResourcePackages, QueryBalanceAcct, ListOrderProductDetails, ListAmortizedCostBillDetail, ListAmortizedCostBillMonthly, ListBillDetail, GetOrder, ListBill, ListPackageUsageDetails, ListAmortizedCostBillDaily, ListSplitBillDetail, QueryBudgetDetail",
+  "modules": "service/billing",
+  "type": "breaking-change"
+}
